@@ -1,0 +1,111 @@
+
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+.group1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 370px;
+    background-color: #42414D;
+    border-radius: 8px;
+    flex-basis: calc(25% - 75px);
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    color: rgb(139, 215, 232);
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.128);
+    border-radius: 8px;
+}
+.element img{
+    width: 230px;
+    height: 170px;
+    background-color: #363445;
+    border-radius: 10px;
+}
+.element button{
+    width: 180px;
+    height: 60px;
+    background: transparent;
+    border: solid 2px rgb(113, 186, 218);
+    color: rgb(70, 166, 207);
+    border-radius: 10px;
+    letter-spacing: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    transform-style: preserve-3d;
+transition: transform 0.4s ease;
+}
+.element button:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    background-color: rgba(47, 133, 154, 0.361);
+    cursor: pointer;
+}
+.element button:active{
+    box-shadow: 1px 0px 15px 1px rgba(33, 156, 193, 0.669);
+    transform: translateY(2px);
+    transform: translateY(2px);
+}
+.element h1{
+    color: rgb(255, 175, 45);
+    margin-top: -2%;
+}
+.element h2{
+    margin-top: -2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.custom-select{
+    width: 200px;
+    height: 40px;
+    background-color: #42414D;
+    border-style: none;
+    color: rgb(139, 215, 232);
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.128);
+    color: rgb(139, 215, 232);
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.o1{
+    background-color: #42414D;
+    border-style: none;
+    color: rgb(139, 215, 232);
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.128);
+    color: rgb(139, 215, 232);
+    font-size: x-large;
+    
+}
